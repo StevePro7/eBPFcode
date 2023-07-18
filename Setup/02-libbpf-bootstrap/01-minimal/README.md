@@ -1,10 +1,10 @@
 ##### README.md
-###### xx/xx/2023
-###### References:
-###### https://github.com/libbpf/libbpf-bootstrap/blob/master/examples/c/minimal.bpf.c
-###### https://github.com/libbpf/libbpf-bootstrap/blob/master/examples/c/minimal.c
+###### 04-Jul-2023
+Reference: https://github.com/libbpf/libbpf-bootstrap/blob/master/examples/c/minimal.bpf.c
+<hr />
+
+bpftool installation
 ```
-00. bpftool installation
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 cd linux
 cd tools/bpf/bpftool
