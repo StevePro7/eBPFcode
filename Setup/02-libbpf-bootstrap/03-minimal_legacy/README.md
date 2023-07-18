@@ -1,6 +1,6 @@
 ##### README.md
 ###### 04-Jul-2023
-Reference: https://github.com/libbpf/libbpf-bootstrap/blob/master/examples/c/minimal_legacy_legacy.bpf.c
+Reference: https://github.com/libbpf/libbpf-bootstrap/blob/master/examples/c/minimal_legacy.bpf.c
 <hr />
 
 bpftool installation
