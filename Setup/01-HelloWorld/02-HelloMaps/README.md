@@ -1,8 +1,9 @@
 ##### README.md
-###### xx/xx/2023
+###### 04-Jul-2023
+Reference: https://github.com/sartura/ebpf-hello-world/blob/main/src/maps.bpf.c
+<hr />
 
-TODO - replace StevePro7 with SteveProXNA
-Reference: https://github.com/sartura/ebpf-hello-world
+bpftool installation
 ```
 00. bpftool installation
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
