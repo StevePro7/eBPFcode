@@ -5,7 +5,6 @@ Reference: https://github.com/sartura/ebpf-hello-world/blob/main/src/maps.bpf.c
 
 bpftool installation
 ```
-00. bpftool installation
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 cd linux
 cd tools/bpf/bpftool
