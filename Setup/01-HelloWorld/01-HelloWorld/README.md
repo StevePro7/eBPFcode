@@ -1,10 +1,9 @@
 ##### README.md
-###### xx/xx/2023
+###### 04-Jul-2023
 
-TODO - replace StevePro7 with SteveProXNA
-Reference: https://github.com/sartura/ebpf-hello-world
+Reference: https://github.com/sartura/ebpf-hello-world/blob/main/src/hello.bpf.c
 ```
-00. bpftool installation
+# bpftool installation
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 cd linux
 cd tools/bpf/bpftool
