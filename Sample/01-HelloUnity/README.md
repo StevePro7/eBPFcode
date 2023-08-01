@@ -6,7 +6,7 @@ Reference: https://github.com/ThrowTheSwitch/Unity/tree/master/examples
 Unity installation
 
 ```
-git clone git clone git@github.com:ThrowTheSwitch/Unity.git
+git clone git@github.com:ThrowTheSwitch/Unity.git
 cd Unity
 cmake .
 make
