@@ -23,7 +23,7 @@ Launch VS Code | Open Folder /home/stevepro/HelloCMock
 ```
 Hello CMock
 ```
-Copy joaniedavis/cmock_example/inc files into HelloCeedling
+Copy https://github.com/joaniedavis/cmock_example/tree/master/inc files into /home/stevepro/HelloCMock
 Update project.yml to include "inc" folder
 ```
 Test drive
