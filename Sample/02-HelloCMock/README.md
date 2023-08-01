@@ -1,33 +1,51 @@
 ##### README.md
 ###### 31-Aug-2023
 
-Reference: https://github.com/joaniedavis/cmock_example
+Reference: https://github.com/ThrowTheSwitch/Unity/tree/master/examples
 <hr />
-CMock installation
+Unity installation
 
 ```
-sudo apt install ruby
-sudo apt install ruby-bundler
-cd  ~/GitHub
-mkdir ThrowTheSwitch
-git clone --recursive https://github.com/throwtheswitch/cmock.git
-cd cmock
-bundle install
+git clone git@github.com:ThrowTheSwitch/Unity.git
+cd Unity
+cmake .
+make
+sudo make install
+sudo cp libunity.a /usr/local/lib
+sudo cp src/unity*.h /usr/local/include/unity
 ```
 New Project
 ```
-Launch Terminal
-cd /home/stevepro
-ceedling new HelloCMock
-Launch VS Code | Open Folder /home/stevepro/HelloCMock
+Launch CLion | New Project
+C Executable
+Location: /home/stevepro/HelloUnity
+Language standard: C11
+Create
 ```
-Hello CMock
+libbpf installation
 ```
-Copy https://github.com/joaniedavis/cmock_example/tree/master/inc files into /home/stevepro/HelloCMock
-Update project.yml to include "inc" folder
+git clone https://github.com/libbpf/libbpf
+cd libbpf/src
+make
+sudo make install
+cd ../..
+```
+Hello Unity
+```
+mkdir src
+mkdir src/include
+mkdir test
+mv main.c test/all_tests.c
+mv libbpf src/include
+touch bpf_object.*
+touch test_bpf_object.*
 ```
 Test drive
 ```
-cd /home/stevepro/HelloCMock
-ruby ~/GitHub/ThrowTheSwitch/cmock/lib/cmock.rb -oproject.yml inc/rectangle.h
+update bpf_object.*
+update test_bpf_object.*
+update CMakeLists.txt
+Edit configurations
+Run with root privileges
+F5
 ```
