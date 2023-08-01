@@ -8,6 +8,8 @@ CMock installation
 ```
 sudo apt install ruby
 sudo apt install ruby-bundler
+cd  ~/GitHub
+mkdir ThrowTheSwitch
 git clone --recursive https://github.com/throwtheswitch/cmock.git
 cd cmock
 bundle install
@@ -27,5 +29,5 @@ Update project.yml to include "inc" folder
 Test drive
 ```
 cd /home/stevepro/HelloCCMock
-ruby /path-to-folder/ThrowTheSwitch/cmock/lib/cmock.rb -oproject.yml inc/rectangle.h
+ruby ~/GitHub/ThrowTheSwitch/cmock/lib/cmock.rb -oproject.yml inc/rectangle.h
 ```
