@@ -18,8 +18,8 @@ New Project
 ```
 Launch Terminal
 cd /home/stevepro
-ceedling new HelloCCMock
-Launch VS Code | Open Folder /home/stevepro/HelloCCMock
+ceedling new HelloCMock
+Launch VS Code | Open Folder /home/stevepro/HelloCMock
 ```
 Hello CMock
 ```
@@ -28,6 +28,6 @@ Update project.yml to include "inc" folder
 ```
 Test drive
 ```
-cd /home/stevepro/HelloCCMock
+cd /home/stevepro/HelloCMock
 ruby ~/GitHub/ThrowTheSwitch/cmock/lib/cmock.rb -oproject.yml inc/rectangle.h
 ```
